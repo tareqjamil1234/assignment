@@ -1,6 +1,6 @@
 // https://github.com/tareqjamil1234/assignment
 
-// Convert : Kilometer to Meter
+// Convert : Kilometer to Meter (1 kilometer = 1000 meter )
 
 function KilometerToMeter(Kilometer){
     var meter = Kilometer * 1000;
@@ -11,7 +11,7 @@ function KilometerToMeter(Kilometer){
 var firstMeter = KilometerToMeter(10);
 console.log(firstMeter);
 
-//budget Calculator 
+//budget Calculator (watch + phone + laptop kinte joto taka lagbe tar total cost ber korte hobe "fixed price watch 50 ,phone 100, laptop 500 )
 
 function budgetCalculator(watch, phone, laptop){
    var watchPrice = 50 * watch;
@@ -24,7 +24,7 @@ function budgetCalculator(watch, phone, laptop){
 var budgetPrice = budgetCalculator( 3 , 5 ,6);
 console.log(budgetPrice);
 
-//hotel Cost
+//hotel Cost (1st 10 day 100 kore ,second 11-20 day 80 kore ,3rd 21 >= issa 50 kore ,total cost ber korte hobe j koydin hotel e thakbo)
 
 function hotelCost(days){
     for(var i = 0; i <= days; i++){
@@ -46,7 +46,7 @@ function hotelCost(days){
 var totalCost = hotelCost(25);
 console.log(totalCost);
 
-//mega Friend (find largest name of my friends)
+//mega Friend (find largest name of my friends using function)
 
 function megaFriend(name){
     var larger = name[0];
