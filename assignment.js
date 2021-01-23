@@ -50,8 +50,8 @@ console.log(totalCost);
 
 function megaFriend(name){
     var larger = name[0];
-    for (var i = 0; i < name.length; i++) {
-        var element = name[i];
+    for (let i = 0; i < name.length; i++) {
+        let element = name[i];
         if(larger < element){
             larger = element;
         }
