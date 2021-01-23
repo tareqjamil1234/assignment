@@ -50,8 +50,8 @@ console.log(totalCost);
 
 function megaFriend(name){
     var larger = name[0];
-    for (let i = 0; i < name.length; i++) {
-        let element = name[i];
+    for (var i = 0; i < name.length; i++) {
+        var element = name[i];
         if(larger < element){
             larger = element;
         }
@@ -59,5 +59,5 @@ function megaFriend(name){
     }
     return larger;
 }
-var largeName = megaFriend(['masum','tareqjamil','sadiqu']);
+var largeName = megaFriend(['aaa','aaaaaa','aaaaaaa']);
 console.log(largeName);
